@@ -1,11 +1,13 @@
 {
   "name": "proyecto-node-tests",
   "version": "1.0.0",
+  "description": "Validación de contraseñas seguras con Jest",
+  "main": "passwordValidator.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "devDependencies": {
-    "jest": "^29.0.0"
+    "jest": "^29.7.0"
   }
 }
 

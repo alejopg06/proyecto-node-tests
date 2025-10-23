@@ -1,4 +1,4 @@
-const validatePassword = require('./passwordValidator');
+const validatePassword = require('../src/ValidacionPass');
 
 test('acepta una contraseña válida', () => {
   expect(validatePassword('ClaveSegura1!')).toBe(true);
