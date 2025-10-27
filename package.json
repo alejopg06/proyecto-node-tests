@@ -6,11 +6,14 @@
     "start": "node src/server.js",
     "test": "jest --coverage"
   },
- "dependencies": {
-  "express": "^4.21.2"
-},
-"devDependencies": {
-  "jest": "^29.7.0",
-  "supertest": "^6.3.4"
-}
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
 }
