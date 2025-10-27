@@ -1,13 +1,16 @@
 {
-  "name": "proyecto-node-tests",
+  "name": "app-testing-pro",
   "version": "1.0.0",
-  "description": "Validación de contraseñas seguras con Jest",
-  "main": "ValidacionPass.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "jest"
+    "start": "node src/server.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
   },
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
   }
 }
-
